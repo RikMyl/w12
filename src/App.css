@@ -1,38 +1,58 @@
-.App {
+.business-card {
   text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 200px;
+  height: 130px;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name {
+  display: inline-flex;
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(190, 25, 255);
+  font-weight: bold;
+  line-height: 2.5;
+}
+.student {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.company {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.experties {
+  font-size: 16px;
+  line-height: 2.5;
+  font-weight: bold;
+}
+.email {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 2.5;
+  color: rgb(190, 25, 255);
+}
+.phone {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(190, 25, 255);
+}
+.address {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 2.5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="business-card">
+      <img src="Vamk_logo.png" alt="Logo" className="logo" />
+      <span className="name">Riku Myllymaa</span>
+      <span className="student">Opiskelija</span>
+      <span className="company">Vaasan Ammattikorkeakoulu</span>
+      <span className="experties">Tietotekniikan insinööri</span>
+      <span className="email">e2202951@edu.vamk.fi</span>
+      <span className="phone">+358456253630</span>
+      <span className="address">Wolffintie 30, 65200 Vaasa</span>
     </div>
   );
-}
+};
 
 export default App;
